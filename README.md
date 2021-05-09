@@ -1,2 +1,1 @@
-# prasadphule.github.io
-my personal website
+This is a personal website for dev to dev.
