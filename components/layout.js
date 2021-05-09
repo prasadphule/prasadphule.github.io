@@ -1,6 +1,3 @@
-import Image from 'next/image'
-
-const name = 'Prasad Phule'
 export const siteTitle = 'Personal Website'
 
 export default function Layout({ children, home }) {
@@ -9,12 +6,9 @@ export default function Layout({ children, home }) {
       <div className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-4 text-center">
-            <Image
-              priority
+            <img
               src="/images/profile.jpg"
-              height={144}
-              width={144}
-              alt={name}
+              alt={"Prasad Phule"}
               className="d-block mx-lg-auto img-fluid img-round rounded-circle"
             />
           </div>
